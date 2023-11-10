@@ -98,4 +98,12 @@ body{
 
 }
 
+#hero {
+    background-image: url("images/cakeback3.jpg");
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: right 50% top;
 
+ 
+}
