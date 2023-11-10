@@ -5,7 +5,7 @@
     margin:0;
     padding:0;
     box-sizing:0;
-    font-family:'Spartan', sans-serif;
+    font-family:cursive;
 }
 
 h1{
@@ -36,6 +36,7 @@ p{
     margin:15px 0 20px 0;
 }
 
+
 .section-p1 {
     padding: 40px 80px;
 }
@@ -56,6 +57,8 @@ body{
     padding:20px 80px;
     background:#E3E6F3;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+  
+
 
 }
 
