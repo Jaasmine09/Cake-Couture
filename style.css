@@ -54,10 +54,13 @@ body{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding:20px 80px;
+    padding:10px 80px;
     background:#E3E6F3;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
-
+    z-index:999;
+    position:sticky;
+    top:0;
+    left:0;
 }
 
 
@@ -116,4 +119,82 @@ body{
 
 .logo{
     margin-top:10px;
+}
+
+/* button design googled */
+.button {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  background-repeat: no-repeat;
+}
+
+.button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+#hero h4{
+    padding-bottom:15px;
+}
+
+#hero h1{
+    color:#088178
+}
+
+/* features */
+.fe-box img{
+    height: 150px;
+    margin-bottom:10px;
+    width:100%;
+   
+    
+}
+#feature{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+#feature .fe-box{
+    width:180px;
+    text-align:center;
+    padding:25px 15px;
+    box-shadow:20px 20px 34px rgba(0,0,0, 0.03);
+    border:1px solid #cce7d0;
+    border-radius:4px;
+    margin:15px 0;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.2);
+}
+
+#feature .fe-box h6{
+    display:inline-block;
+    padding:9px 8px 6px 8px;
+    line-height:1;
+    border-radius:4px;
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    color:#FFFFFF;
+    font-weight: 300;
 }
