@@ -57,9 +57,9 @@ body{
     padding:20px 80px;
     background:#E3E6F3;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
-   
 
 }
+
 
 #navbar{
     display:flex;
@@ -99,11 +99,21 @@ body{
 }
 
 #hero {
-    background-image: url("images/cakeback3.jpg");
+    background-image: url("images/cakebackfinal3.png");
     background-size: cover;
     height: 90vh;
     width: 100%;
-    background-position: right 50% top;
+    background-position: top 25% right 0;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
 
- 
+#content{
+    padding: 0 80px;
+}
+
+.logo{
+    margin-top:10px;
 }
